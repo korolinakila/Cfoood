@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="button2" type="id" />
+    <item name="alco" type="id" />
+    <item name="greeting" type="id" />
+    <item name="offer" type="id" />
+    <item name="milk" type="id" />
+    <item name="egg" type="id" />
+    <item name="gluten" type="id" />
+    <item name="fish" type="id" />
+    <item name="nut" type="id" />
+    <item name="fruit" type="id" />
+    <item name="vegetables" type="id" />
+    <item name="soy" type="id" />
+    <item name="chocolate" type="id" />
+</resources>
