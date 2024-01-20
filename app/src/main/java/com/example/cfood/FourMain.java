@@ -9,14 +9,14 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 
-public class ThirdActivity extends AppCompatActivity {
+public class FourMain extends AppCompatActivity {
     ImageView water, checheviza, chicken_grud, fish, grechka, grid_chiken, indeika, kapusta, kinoa, omlet, pasta, potatoe, salad, sirniki, sok, tushovoshi, tvorog, yogurt;
     TextView waterT, chechevizaT, chicken_grudT, fishT, grechkaT, grid_chikenT, indeikaT, kapustaT, kinoaT, omletT, pastaT, potatoeT, saladT, sirnikiT, sokT, tushovoshiT, tvorogT, yogurtT, SUM1, SUM2, SUM3, SUM41, SUM42, SUM43;
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_third);
+        setContentView(R.layout.activity_four_main);
         water = findViewById(R.id.water);
         checheviza = findViewById(R.id.checheviza);
         chicken_grud = findViewById(R.id.chicken_grud);

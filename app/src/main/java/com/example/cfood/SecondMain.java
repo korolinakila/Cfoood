@@ -23,7 +23,6 @@ public class SecondMain extends AppCompatActivity {
         button =  findViewById(R.id.button);
         inputText = findViewById(R.id.inputText);
         switcher = findViewById(R.id.switcher);
-
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -43,8 +42,14 @@ public class SecondMain extends AppCompatActivity {
 
     }
     public void Perehod(){
-        Intent intent = new Intent(this, ThirdActivity.class);
-        startActivity(intent);
+        if(Integer.parseInt(inputText.getText().toString())>0 && Integer.parseInt(inputText.getText().toString())<750){
+            Intent intent = new Intent(this, ThirdActivity.class);
+            startActivity(intent);
+        }
+        else{
+            Intent intent = new Intent(this, FourMain.class);
+            startActivity(intent);
+        }
     }
 
 }

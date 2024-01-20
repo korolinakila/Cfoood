@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".ThirdActivity">
+    tools:context=".FourMain">
 
 
     <LinearLayout
@@ -21,19 +21,19 @@
             android:orientation="vertical">
 
             <ImageView
-                android:id="@+id/water"
+                android:id="@+id/tvorog"
                 android:layout_width="77dp"
                 android:layout_height="86dp"
                 android:layout_gravity="center"
-                app:srcCompat="@drawable/water" />
+                app:srcCompat="@drawable/tvorog" />
 
             <TextView
-                android:id="@+id/waterT"
+                android:id="@+id/tvorogT"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="вода 0 калл" />
+                android:text="творог со сметаной 200 калл" />
         </LinearLayout>
 
         <LinearLayout
@@ -43,19 +43,19 @@
             android:orientation="vertical">
 
             <ImageView
-                android:id="@+id/omlet"
+                android:id="@+id/sirniki"
                 android:layout_width="77dp"
                 android:layout_height="86dp"
                 android:layout_gravity="center"
-                app:srcCompat="@drawable/omlet" />
+                app:srcCompat="@drawable/sirniki" />
 
             <TextView
-                android:id="@+id/omletT"
+                android:id="@+id/sirnikiT"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="омлет 260 калл" />
+                android:text="сырники 600 калл" />
         </LinearLayout>
 
         <LinearLayout
@@ -65,29 +65,29 @@
             android:orientation="vertical">
 
             <ImageView
-                android:id="@+id/yogurt"
+                android:id="@+id/sok"
                 android:layout_width="77dp"
                 android:layout_height="86dp"
                 android:layout_gravity="center"
-                app:srcCompat="@drawable/yogurt" />
+                app:srcCompat="@drawable/sok" />
 
             <TextView
-                android:id="@+id/yogurtT"
+                android:id="@+id/sokT"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="йогурт 200 калл" />
+                android:text="яблочный сок 200 калл" />
         </LinearLayout>
 
     </LinearLayout>
 
     <TextView
-        android:id="@+id/SUM1"
+        android:id="@+id/SUM41"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="В СУММЕ: 460 КАЛЛ" />
+        android:text="В СУММЕ: 1000 КАЛЛ" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -102,19 +102,19 @@
             android:orientation="vertical">
 
             <ImageView
-                android:id="@+id/chicken_grud"
+                android:id="@+id/checheviza"
                 android:layout_width="77dp"
                 android:layout_height="86dp"
                 android:layout_gravity="center"
-                app:srcCompat="@drawable/chicken_grud" />
+                app:srcCompat="@drawable/checheviza" />
 
             <TextView
-                android:id="@+id/chicken_grudT"
+                android:id="@+id/chechevizaT"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="куриная грудка 300 калл" />
+                android:text="чечевица 120 калл" />
         </LinearLayout>
 
         <LinearLayout
@@ -124,14 +124,14 @@
             android:orientation="vertical">
 
             <ImageView
-                android:id="@+id/potatoe"
+                android:id="@+id/indeika"
                 android:layout_width="77dp"
                 android:layout_height="86dp"
                 android:layout_gravity="center"
-                app:srcCompat="@drawable/potatoe" />
+                app:srcCompat="@drawable/indeika" />
 
             <TextView
-                android:id="@+id/potatoeT"
+                android:id="@+id/indeikaT"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -146,28 +146,28 @@
             android:orientation="vertical">
 
             <ImageView
-                android:id="@+id/salad"
+                android:id="@+id/pasta"
                 android:layout_width="77dp"
                 android:layout_height="86dp"
                 android:layout_gravity="center"
-                app:srcCompat="@drawable/salad" />
+                app:srcCompat="@drawable/pasta" />
 
             <TextView
-                android:id="@+id/saladT"
+                android:id="@+id/pastaT"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="овощной салат 75 калл" />
+                android:text="паста с томатами 650 калл" />
         </LinearLayout>
 
     </LinearLayout>
     <TextView
-        android:id="@+id/SUM2"
+        android:id="@+id/SUM42"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="В СУММЕ: 525 КАЛЛ" />
+        android:text="В СУММЕ: 920 КАЛЛ" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -182,19 +182,19 @@
             android:orientation="vertical">
 
             <ImageView
-                android:id="@+id/fish"
+                android:id="@+id/grechka"
                 android:layout_width="77dp"
                 android:layout_height="86dp"
                 android:layout_gravity="center"
-                app:srcCompat="@drawable/fish" />
+                app:srcCompat="@drawable/grechka" />
 
             <TextView
-                android:id="@+id/fishT"
+                android:id="@+id/grechkaT"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="отварная красная рыба 300 калл" />
+                android:text="гречка 150 калл" />
         </LinearLayout>
 
         <LinearLayout
@@ -204,19 +204,19 @@
             android:orientation="vertical">
 
             <ImageView
-                android:id="@+id/tushovoshi"
+                android:id="@+id/grid_chicken"
                 android:layout_width="77dp"
                 android:layout_height="86dp"
                 android:layout_gravity="center"
-                app:srcCompat="@drawable/tushovoshi" />
+                app:srcCompat="@drawable/grid_chicken" />
 
             <TextView
-                android:id="@+id/tushovoshiT"
+                android:id="@+id/grid_chickenT"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="тушеные овощи 50 калл" />
+                android:text="курица гриль 750 калл" />
         </LinearLayout>
 
         <LinearLayout
@@ -226,28 +226,28 @@
             android:orientation="vertical">
 
             <ImageView
-                android:id="@+id/kinoa"
+                android:id="@+id/kapusta"
                 android:layout_width="77dp"
                 android:layout_height="86dp"
                 android:layout_gravity="center"
-                app:srcCompat="@drawable/kinoa" />
+                app:srcCompat="@drawable/kapusta" />
 
             <TextView
-                android:id="@+id/kinoaT"
+                android:id="@+id/kapustaT"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="отварное киноа 150 калл" />
+                android:text="цветная капуста 130 калл" />
         </LinearLayout>
 
 
     </LinearLayout>
     <TextView
-        android:id="@+id/SUM3"
+        android:id="@+id/SUM43"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="В СУММЕ: 500 КАЛЛ" />
+        android:text="В СУММЕ: 1030 КАЛЛ" />
 
 </LinearLayout>
